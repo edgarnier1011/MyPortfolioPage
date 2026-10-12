@@ -1,14 +1,18 @@
+import image1 from './assets/Gallery/image1.jpg';
+import image2 from './assets/Gallery/image2.jpg';
+import AppStoreIcon from './assets/Gallery/AppStoreIcon.png';
+import GooglePlayIcon from './assets/Gallery/GooglePlayIcon.png';
 function Gallery() {
     return (
         <>
             <h1>Sermon Audios</h1>
             <p>Sermon Audios is an application about sharing sermon snippets, with narrations for them to be more expressive and caught the attention of the user.</p>
             <div className="gallery" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', padding: '10px' }} >
-                <img src="/src/assets/Gallery/image1.jpg" alt="Image 1" width="300px" />
-                <img src="/src/assets/Gallery/image2.jpg" alt="Image 2" width="300px" />
+                <img src={image1} alt="Image 1" width="300px" />
+                <img src={image2} alt="Image 2" width="300px" />
                 <div style={{ display: 'flex', flexDirection: 'row', gap: '50px', alignItems: 'center' }}>
-                    <a href="https://www.apple.com/app-store/" rel="noopener noreferrer" target="_blank"><img src="/src/assets/Gallery/AppStoreIcon.png" alt="App Store Icon" width="200px" /></a>
-                    <a href="https://play.google.com/store" rel="noopener noreferrer" target="_blank"><img src="/src/assets/Gallery/GooglePlayIcon.png" alt="Google Play Icon" width="200px" /></a>
+                    <a href="https://www.apple.com/app-store/" rel="noopener noreferrer" target="_blank"><img src={AppStoreIcon} alt="App Store Icon" width="200px" /></a>
+                    <a href="https://play.google.com/store" rel="noopener noreferrer" target="_blank"><img src={GooglePlayIcon} alt="Google Play Icon" width="200px" /></a>
                 </div>
 
             </div>
