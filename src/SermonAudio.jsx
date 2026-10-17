@@ -16,6 +16,10 @@ function Gallery() {
                 </div>
 
             </div>
+            <h2>Support for Sermon Audios</h2>
+            <p>If you have any questions or need assistance with the Sermon Audios application, please feel free to reach out to our support team. We are here to help you make the most of the application.</p>
+            <h2>Privacy Policy</h2>
+            <p> Use the link to access our privacy policy: <a href="https://sites.google.com/view/sermonaudios/home" rel="noopener noreferrer" target="_blank">Privacy Policy</a></p>
             <h2>What inspired me to create this application</h2>
             <p> I once heard from someone that told me, there are not bad stories, only bad narrators. Someone can write the best story, but if they can't tell it well, it won't have the desired impact. Sermon Audios was created to provide a platform where stories can be shared with engaging narrations, ensuring they reach their full potential.</p>
             <h2>Drawbacks</h2>

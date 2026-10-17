@@ -9,6 +9,7 @@ import Games from "./MyGames.jsx";
 //import Contact from "./pages/Contact";
 import Gallery from "./SermonAudio.jsx";
 import GitHubRepositoriesPage from "./GitHubRepositoriesPage.jsx";
+import Support from "./Support.jsx";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/sermonaudio" element={<Gallery />} />
         <Route path="/mygames" element={<Games />} />
         <Route path="/githubrepositoriespage" element={<GitHubRepositoriesPage />} />
+        <Route path="/support" element={<Support />} />
         {/* <Route path="/about" element={<About />} /> */}
         {/* <Route path="/articles" element={<Articles />} /> */}
         {/* <Route path="/contact" element={<Contact />} /> */}
