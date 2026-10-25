@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Gallery from './SermonAudio.jsx'
 
 function Home() {
-    const [count, setCount] = useState(0)
+    // const [count, setCount] = useState(0)
 
     return (
         <>
@@ -16,17 +16,17 @@ function Home() {
                     {/* <Header /> */}
                     <h1>Welcome to my Page</h1>
                     <p>Thank you for visting my portfolio page. Feel free to explore and learn more about my work by using the navigation links above.</p>
-                    <p>
+                    {/* <p>
                         Edit <code>src/App.jsx</code> and save to test 1<code>HMR</code>
-                    </p>
+                    </p> */}
                 </div>
-                <button
+                {/* <button
                     type="button"
                     className="counter"
                     onClick={() => setCount((count) => count + 1)}
                 >
                     Count is {count}
-                </button>
+                </button> */}
                 {/* <MultipleArticles
           articles={[
             { title: 'Article 1', text: 'This is the first article.' },

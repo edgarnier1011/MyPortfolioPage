@@ -14,9 +14,12 @@ function Support() {
                 edgartorresberumen101193@gmail.com
             </p>
 
-            <button onClick={() => navigate(-1)}>
+            <h2>Privacy Policy</h2>
+            <p> Use the link to access Sermon Audios privacy policy: <a href="https://sites.google.com/view/sermonaudios/home" rel="noopener noreferrer" target="_blank">Privacy Policy</a></p>
+
+            {/* <button onClick={() => navigate(-1)}>
                 Back
-            </button>
+            </button> */}
         </div>
     );
 }
